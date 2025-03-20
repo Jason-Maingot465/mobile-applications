@@ -24,8 +24,18 @@ class Quiz extends StatefulWidget {
 
 class _QuizState extends State<Quiz> {
   int currentQuestion = 0;
-  var questions = ["Dolphins are mammals", "Elephants are the biggest animals", "Melbourne is the Capital of Australia", "Cleopatra was of Egyptian descent"];
-  var answers = [0, 0, 1, 1];
+  var questions = 
+  ["Dolphins are mammals", 
+  "Elephants are the biggest animals", 
+  "Melbourne is the Capital of Australia", 
+  "Cleopatra was of Egyptian descent",
+  "A human body has 500 bones.",
+  "Butterflies taste with their feet",
+  "Camels store water in their humps", 
+  "Water boils at 100 degrees Fahrenheit", 
+  "Giraffes have short necks",
+  "Octopuses have 3 hearts"];
+  var answers = [0, 0, 1, 1, 1, 0, 1, 1, 1, 0];
 
   String result = "";
   Color resultColor = Colors.blue;
